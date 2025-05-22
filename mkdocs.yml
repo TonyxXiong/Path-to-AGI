@@ -1,0 +1,42 @@
+site_name: Path to AGI/ASI
+theme:
+  name: material
+  features:
+    - content.footnote.tooltips
+    - content.math  # Enables MathJax
+
+plugins:
+  - search
+  - bibtex:
+      bib_file: "references.bib"
+
+markdown_extensions:
+  - footnotes
+  - pymdownx.tilde
+  - pymdownx.extra
+
+
+extra_javascript: 
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+markdown_extensions:
+    - mdx_math
+
+nav:
+  - Home: index.md
+  - Introduction: intro.md
+  - "Intelligence Reimagined: Foundations and Frontiers": ch1n.md
+  # - Chapter 1: V2.1.Deep Reasoning Models, AGI, and ASI_ A Roadmap to the Future of Artificial Intelligence.md
+  # - Chapter 2: V2.1.2.Deep Reasoning Models, AGI, and ASI_ A Roadmap to the Future of Artificial Intelligence.md
+  # - Chapter 3: Chapter 3_ The Power of Parallelism.md
+  # - Chapter 4: Chapter 4_ The Data Renaissance_ Quality over Quantity.md
+  # - Chapter 5: Chapter 5.2_ AI Agent.md
+  # - Chapter 6: Chapter 6_ The Asymmetry of Creation.md
+  # - Chapter 7: Chapter 7_ The Rise of the AI Arbiter.md
+  # - Chapter 8: Chapter 8_ Test-Time Scaling.md
+  # - Chapter 9: Chapter 9_ Distillation_ Transferring Intelligence to Efficient Models.md
+  # - Chapter 10: Chapter 10_ Emerging Frontiers in Deep Reasoning.md
+  # - Chapter 11: Chapter 11_ Real2Sim2Real and Transcendence.md
+  # - Chapter 12: Chapter 12_ The Evolving Tapestry of Intelligence.md
+  
+    
